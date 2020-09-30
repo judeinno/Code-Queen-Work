@@ -1,0 +1,19 @@
+
+h1 {
+  color: green;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: 'Farro', sans-serif;
+}
+
+body {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+}
+
+ul {
+  font-family: 'Farro', sans-serif;
+}
+
+ul > li {
+  font-family: 'Calistoga', cursive;
+}
