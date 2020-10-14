@@ -1,0 +1,11 @@
+
+
+body > .images {
+  display: flex;
+
+}
+
+body > .images > div {
+  margin: 20px;
+}
+

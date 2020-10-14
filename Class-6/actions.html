@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Actions</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <button class="hide">Hide</button>
+    <button class="show">Show</button>
+    <button class="toggle">Toggle</button>
+    <button class="slide-up">Slide Up</button>
+    <button class="slide-down">Slide Down</button>
+    <button class="slide-toggle">Slide Toggle</button>
+    <button class="fade-out">fade Out</button>
+    <button class="fade-in">Fade In </button>
+    <button class="fade-toggle">Fade Toggle</button>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6V8BRwScNahWV4zDRN7JwWk-fFe0StP4ZHg&usqp=CAU" >
+  </body>
+</html>
+
+<script>
+  $(".hide").click(function(){
+      $("img").hide();
+  });
+
+  $(".show").click(function(){
+      $("img").show();
+  });
+  $(".toggle").click(function(){
+      $("img").toggle();
+  });
+  $(".slide-up").click(function(){
+      $("img").slideUp();
+  });
+  $(".slide-down").click(function(){
+      $("img").slideDown();
+  });
+  $(".slide-toggle").click(function(){
+      $("img").slideToggle();
+  });
+  $(".fade-out").click(function(){
+      $("img").fadeOut();
+  });
+  $(".fade-in").click(function(){
+      $("img").fadeIn();
+  });
+  $(".fade-toggle").click(function(){
+      $("img").fadeToggle();
+  });
+</script>

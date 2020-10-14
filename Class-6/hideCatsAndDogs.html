@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hide Cats and Dogs</title>
+    <link rel="stylesheet" href="./hidepets.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <button class="cats">Hide Cat</button>
+    <button class="dogs">Hide Dog</button>
+    <div class="images">
+      <div>
+        <img class="cat-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTegLnWymRO4qbkuiCDagkXBAJ6tkr_-qrmcQ&usqp=CAU">
+      </div>
+      <div>
+        <img class="dog-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBJYHci8ABP5AwOtfaj_Udms3bZTMXZJigeg&usqp=CAU">
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  $('.cats').click(function () {
+    $('.cat-image').hide();
+  })
+  $('.dogs').click(function () {
+    $('.dog-image').hide();
+  })
+</script>
