@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Inputs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <input type="email" class="email" placeholder="email">
+    <input class="number" placeholder="Phone number">
+    <input type="password" class="password" placeholder="Password">
+    <button>Inputs display</button>
+    <p></p>
+  </body>
+</html>
+
+<script>
+  $("button").click(function() {
+    let userEmail = $(".email").val();
+    let userNumber = $(".number").val();
+    let userPassword = $(".password").val();
+    let space = " "
+    console.log(userEmail + space + userNumber + space + userPassword)
+    alert(userEmail + space + userNumber + space + userPassword)
+    $("p").text(userEmail + space + userNumber + space + userPassword)
+  })
+</script>

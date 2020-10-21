@@ -1,0 +1,20 @@
+img {
+  width: 300px;
+}
+
+.logo {
+  width: 100px;
+}
+
+input {
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+.messages, .messagesAppend, .htmlAppend, .htmlWebsiteAppend {
+  border: groove grey 2px;
+  height: 100px;
+  margin: 10px;
+  padding: 5px;
+}

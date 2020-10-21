@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Events</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <button class="hide">Hide</button>
+    <button class="show">Double click</button>
+    <button class="change-height">Hover</button>
+    <button class="slide-up">mouse enter</button>
+    <button class="slide-down">mouse leave</button>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6V8BRwScNahWV4zDRN7JwWk-fFe0StP4ZHg&usqp=CAU" >
+  </body>
+</html>
+
+<script>
+  $(".hide").click(function(){
+      $("img").hide();
+  });
+
+  $(".show").dblclick(function(){
+      $("img").show();
+  });
+  $(".change-height").hover(function(){
+      $("img").css("height","400px");
+  });
+  $(".slide-up").mouseenter(function(){
+      $("img").slideUp();
+  });
+  $(".slide-down").mouseleave(function(){
+      $("img").slideDown();
+  });
+
+</script>

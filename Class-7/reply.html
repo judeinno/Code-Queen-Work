@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>06.3 jQuery Actions w/ Arguments Practice</title>
+        <link rel="stylesheet" href="./changeCss.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Can I have another donut?</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png">
+        <div>
+            <button class="replyYes">Click to reply Yes</button>
+        </div>
+            <p class="homers-reply-yes"> </p>
+        <div>
+            <button class="replyNo">Click to reply No</button>
+        </div>
+          <p class="homers-reply-no"> </p>
+    </body>
+</html>
+
+<script>
+    $(".replyYes").click(function() {
+      $(".homers-reply-yes").text('Yes')
+
+    });
+
+    //Independent Practice
+    $(".replyNo").click(function() {
+      $(".homers-reply-no").text('No')
+
+    });
+</script>
